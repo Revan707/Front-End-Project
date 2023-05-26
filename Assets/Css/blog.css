@@ -4,7 +4,7 @@
     padding: 0;
 
 }
-.header{
+.section-1{
     width: 100%;
     height: 60px;
     display: flex;
@@ -21,6 +21,10 @@
 
 .call{
     margin-left: 30px;
+}
+
+.yellow:hover{
+    color: rgb(216, 196, 80);
 }
 
 .title{
@@ -46,3 +50,131 @@
     margin-top: 3px;
     margin-left: 3px;
 }
+
+.section-2{
+    margin-top: -8px;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(247, 242, 242);
+    display: flex;
+    gap: 300px;
+
+}
+
+.section-2 .left{
+    
+    display: flex;
+    gap: 25px;
+}
+
+.section-2 .left i{
+    margin-top: 3px;
+    color: rgb(167, 164, 164);
+}
+
+.section-2 .left span{
+    color: rgb(167, 164, 164);
+    font-size: 17px;
+}
+
+.section-2 .left div{
+    font-weight: 600;
+}
+
+.section-2 .left .home, .shop, .icons, .pages, .docks{
+    display: flex;
+}
+
+.section-2 .right input{
+    width: 270px;
+    height: 30px;
+    border-color: white;
+    border: none;
+}
+
+.section-2 .right input::placeholder{
+   margin: 5px;
+   padding: 0px;
+}
+
+.section-2 .right .search{
+    display: flex;
+}
+
+.section-3 .cards{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.section-3 .cards .card_main{
+    width: 305px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section-3 .cards .card_main img{
+    width:max-content;
+    height: 204px;
+}
+
+.section-3 .cards .card_main .text_time{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.section-3 .cards .card_main h3{
+    font-size: 22px;
+}
+
+.section-3 .cards .card_main .text_time .time{
+    color: rgb(166, 166, 166);
+}
+
+.section-3 .cards .card_main .text_time .text{
+    color: rgb(216, 196, 80);
+}
+
+.section-3_end{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3_end .left{
+    margin-left: 200px;
+    display: flex;
+}
+
+.section-3_end .right{
+    margin-right: 200px;
+    display: flex;
+}
+
+.section-3_end i{
+    width: 5px;
+    height: 5px;
+}
+
+.section-3_end div{
+    color: rgb(173, 173, 173);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
