@@ -245,10 +245,6 @@ color: black;
     gap: 3px;
 }
 
-.section-4 .offer{
-    background-color:rgb(241, 238, 238) ;
-}
-
 .section-4 .offer .text {
     display: flex;
     flex-direction: column;
