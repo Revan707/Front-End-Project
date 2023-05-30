@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(248, 248, 248);
 }
 
 .section-1 {
@@ -147,25 +147,134 @@ color: black;
     margin-left: 220px;
 }
 
-.section-3 .header{
-
-}
-
-.section-3 .header .about_us{
+.section-3 .titles{
     display: flex;
+    flex-direction: column;
     gap: 100px;
+
 }
 
-.section-3 .header .line{
+.section-3 .titles .about_us{
+}
+
+.section-3 .titles .about_us .line{
     width: 70px;
     height: 1px;
     background-color: black;
     margin-top: 10px;
+    float: left;
 }
 
-.section-3 .header .header_title{
+.section-3 .titles .about_us .header_title{
     letter-spacing: 4px;
     color: rgb(161, 145, 51);
     font-size: 17px;
+    margin-left: 200px;
+}
+
+.section-3 .titles .about_us .text_title{
+    margin-top: 25px;
+    margin-left: 200px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.section-3 .titles .about_us .text{
+    margin-top: 45px;
+    margin-left: 200px;
+    color: #868e96 !important;
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 500px;
+    line-height: 30px;
+}
+
+.section-3 .titles .theoldtimes .line{
+    width: 70px;
+    height: 1px;
+    background-color: black;
+    margin-top: 10px;
+    float: left;
+}
+
+.section-3 .titles .theoldtimes .header_title{
+    letter-spacing: 4px;
+    color: rgb(161, 145, 51);
+    font-size: 17px;
+    margin-left: 200px;
+}
+
+.section-3 .titles .theoldtimes .text_title{
+    margin-top: 25px;
+    margin-left: 200px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.section-3 .titles .theoldtimes .humble{
+    margin-top: 80px;
+    width: 370px;
+    height: 480px;
+    object-fit: cover;
+    float: left;
+}
+
+.section-3 .titles .theoldtimes .img_title{
+    margin-top: 200px;
+    margin-left: 490px;
+    color: #868e96 !important;
+    letter-spacing: 6px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.section-3 .titles .theoldtimes .text_title-2{
+    margin-top: 5px;
+    margin-left: 490px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-3 .titles .theoldtimes .text-2{
+    color: #868e96 !important;
+    font-size: 18px;
+    margin-left: 490px;
+    margin-top: 25px;
+    font-weight: bold;
+    width: 600px;
+    line-height: 25px;
+}
+
+.section-3 .titles .varkala_today{
+    display: flex;
+    gap: 50px;
+}
+
+.section-3 .titles .varkala_today .title{
+    color: #868e96 !important;
+    letter-spacing: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.section-3 .titles .varkala_today .text_title{
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-3 .titles .varkala_today .text{
+    color: #868e96 !important;
+    font-size: 18px;
+    margin-top: 25px;
+    font-weight: bold;
+    width: 600px;
+    line-height: 25px;
+}
+
+.section-3 .titles .varkala_today .clark{
+    width: 450px;
+    height: 270px;
 }
 
