@@ -276,3 +276,226 @@ color: black;
 .section-4 .myMap .right .country .text3 {
     margin-left: 49px;
 }
+
+.section-5  {
+    height: 600px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-5 .contact_text {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-5 .text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-5 .contactsForm {
+    width: 50%;
+    height: 100%;
+}
+
+.section-5 .header {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.section-5 .header p {
+    color: rgb(19, 14, 24);
+    width: 460px;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 90px;
+}
+
+.section-5 .icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 2rem;
+    color: rgb(167, 154, 81);
+    cursor: pointer;
+}
+
+.section-5 .icons i:hover{
+    color: rgb(116, 107, 57);
+}
+
+.section-5 .header_title {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-5 .contactsForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-5 .contactsForm form {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200 bold;
+    font-weight: bold;
+}
+
+.section-5 .btnCont {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-5 .btnCont button {
+    height: 40px;
+    width: 200px;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: white;
+    color: rgb(167, 154, 81);
+    border: 1px solid rgb(167, 154, 81);;
+    font-size: 14px;
+    font-weight: bold;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.section-5 .btnCont button:hover {
+    background-color: rgb(167, 154, 81);
+    color: black;
+    transition: .3s;
+}
+
+.section-5 .bottomborder {
+    border: 0px;
+    border-bottom: 1px solid grey;
+    outline: none;
+    transition: .3s;
+    padding-left: 100px;
+    height: 70px;
+}
+
+.section-5 .bottomborder:focus {
+    border-bottom-color: rgb(167, 154, 81);
+    transition: .3s;
+}
+
+.section-5 .bottomborder:hover {
+    border-bottom-color: rgb(167, 154, 81) !important;
+    transition: .3s;
+}
+
+.section-5 .nameSurname {
+    display: flex;
+    gap: 20px;
+}
+
+.section-5 .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-6 {
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.section-6 .offer {
+    display: flex;
+    gap: 3px;
+}
+
+.section-6 .offer .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: rgb(167, 167, 167);
+    font-size: 17px;
+}
+
+.section-6 .offer .text .black {
+    color: black;
+    font-weight: bold;
+}
+
+.section-7 {
+    display: flex;
+    gap: 120px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.section-7 .left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+
+.section-7 .left .title {
+
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-7 .left .lorem {
+    color: rgb(138, 138, 138);
+    font-size: 16px;
+}
+
+.section-7 .left input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.section-7 .right {
+    display: flex;
+    gap: 120px;
+}
+
+.section-7 .right .component {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section-7 .right div {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-7 .right span {
+    font-size: 16px;
+    color: rgb(138, 138, 138);
+}
+
