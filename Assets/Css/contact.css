@@ -17,7 +17,7 @@
     display: flex;
     gap: 10px;
     margin: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .call {
@@ -44,7 +44,7 @@
     display: flex;
     margin-top: 20px;
     gap: 20px;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .right i {
@@ -61,7 +61,6 @@
     background-repeat: no-repeat;
     background-position: 50% 55%;
     background-size: 100%;
-    ba
 }
 
 .section-2 .header{
@@ -162,4 +161,51 @@ color: black;
 
 .section-2 .right .myIcons i:hover{
     color:rgb(216, 196, 80) ;
+}
+
+.section-3{
+    margin-top: 80px;
+    width: 100%;
+    height: 310px;
+}
+
+.section-3 .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.section-3 .contact .for_contact {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 10px;
+    background-color: white;
+    color: #868e96 !important;
+    font-weight: bold;
+}
+
+.section-3 .contact .left{
+    margin-left: 100px;
+}
+
+.section-3 .contact .for_contact .title {
+    color: black;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.section-3 .contact .for_contact .text{
+    width: 380px;
+}
+
+.section-3 .contact .for_contact .call_text{
+    width: 380px;
+    line-height: 27px;
+}
+
+.section-3 .contact .for_contact .adress_text{
+    width: 200px;
+    line-height: 24px;
 }
