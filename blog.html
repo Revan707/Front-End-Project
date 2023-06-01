@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="./Assets/Js/blog.js" defer></script>
     <title>Document</title>
 </head>
@@ -34,34 +35,62 @@
                 </div>
             </div>
         </div>
-        <div class="section-2" >
+        <div class="section-2">
             <div class="header">
                 <div class="left">
                     <div>Varkala</div>
-                    <div class="home">
+                    <div class="home component">
                         <span>Home</span>
-                        <i class="fa-solid fa-angle-down"></i>
+                        <i class="fa-solid fa-angle-down angle"></i>
+                        <div class="pages1">
+                            <a href="./index.html">Home 1 - Fashion</a>
+                            <a href="./blog.html">Home 2 - Fashion</a>
+                            <a href="./about.html">Home 3 - Design</a>
+                            <a href="./contact.html">Home 4 - Design</a>
+                        </div>
                     </div>
-                    <div class="shop">
+                    <div class="shop component">
                         <span>Shop</span>
                         <i class="fa-solid fa-angle-down"></i>
+                        <div class="pages2">
+                            <div class="shop_pages">
+                                <div class="title">Shop pages</div>
+                                <div class="kind">Full width</div>
+                                <div class="kind">Full width with category menu</div>
+                                <div class="kind">Full width with big products</div>
+                                <div class="kind">Fixed width</div>
+                                <div class="kind">Fixed width & sidebar</div>
+                                <div class="kind">Fixed width & masonry layoutNew</div>
+                                <div class="kind">Subcategories</div>
+                            </div>
+                            <div class="product_pages">
+                                <div class="title">Product pages</div>
+                                <div class="kind">Product with sticky info</div>
+                                <div class="kind">Product with background</div>
+                                <div class="kind">Product standard</div>
+                            </div>
+                            <img src="./Assets/Images/kyle-loftus-596319-unsplash-cropped.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="icons">
+                    <div class="icons component">
                         <span>Icons</span>
                         <i class="fa-solid fa-angle-down"></i>
                     </div>
-                    <div class="pages">
+                    <div class="pages component">
                         <span>Pages</span>
                         <i class="fa-solid fa-angle-down"></i>
                     </div>
-                    <div class="docks">
+                    <div class="docks component">
                         <span>Docks</span>
                         <i class="fa-solid fa-angle-down"></i>
                     </div>
                 </div>
                 <div class="right">
                     <div class="search">
-                        <input type="text" placeholder="Search">
+                        <div class="inp">
+                            <input type="text" placeholder="Search">
+                            <div class="line"></div>
+                        </div>
                         <i class="fa-solid fa-magnifying-glass myIcon"></i>
                     </div>
                     <div class="myIcons">
@@ -82,7 +111,7 @@
         </div>
         <div class="section-3">
             <div class="cards">
-                <div class="card_main">
+                <div class="card_main" data-aos="fade-up">
                     <img src="./Assets/Images/christopher-campbell-28571-unsplash.jpg" alt="">
                     <a href="https://demo.bootstrapious.com/varkala/1-2-1/post.html">Pellentesque habitant morbi</a>
                     <div class="text_time">
@@ -90,7 +119,7 @@
                         <div class="time">January 16, 2019</div>
                     </div>
                 </div>
-                <div class="card_main">
+                <div class="card_main" data-aos="fade-up">
                     <img src="./Assets/Images/ian-dooley-347942-unsplash.jpg" alt="">
                     <a href="https://demo.bootstrapious.com/varkala/1-2-1/post.html">Best books about Fashion</a>
                     <div class="text_time">
@@ -98,7 +127,7 @@
                         <div class="time">January 16, 2019</div>
                     </div>
                 </div>
-                <div class="card_main">
+                <div class="card_main" data-aos="fade-up">
                     <img src="./Assets/Images/ian-dooley-347962-unsplash.jpg" alt="">
                     <a href="https://demo.bootstrapious.com/varkala/1-2-1/post.html">Best books about Fashion</a>
                     <div class="text_time">
@@ -106,7 +135,7 @@
                         <div class="time">January 16, 2019</div>
                     </div>
                 </div>
-                <div class="card_main">
+                <div class="card_main" data-aos="fade-up">
                     <img src="./Assets/Images/matheus-ferrero-334418-unsplash.jpg" alt="">
                     <a href="https://demo.bootstrapious.com/varkala/1-2-1/post.html">Autumn fashion tips and tricks</a>
                     <div class="text_time">
@@ -114,7 +143,7 @@
                         <div class="time">January 16, 2019</div>
                     </div>
                 </div>
-                <div class="card_main">
+                <div class="card_main" data-aos="fade-up">
                     <img src="./Assets/Images/photo-1534126511673-b6899657816a.jpg" alt="">
                     <a href="https://demo.bootstrapious.com/varkala/1-2-1/post.html">Newest photo apps</a>
                     <div class="text_time">
@@ -122,7 +151,7 @@
                         <div class="time">January 16, 2019</div>
                     </div>
                 </div>
-                <div class="card_main">
+                <div class="card_main" data-aos="fade-up">
                     <img src="./Assets/Images/rahul-anil-214671-unsplash.jpg" alt="">
                     <a href="https://demo.bootstrapious.com/varkala/1-2-1/post.html">Best books about Fashion</a>
                     <div class="text_time">
@@ -130,7 +159,7 @@
                         <div class="time">January 16, 2019</div>
                     </div>
                 </div>
-                <div class="card_main">
+                <div class="card_main" data-aos="fade-up">
                     <img src="./Assets/Images/ian-dooley-347942-unsplash.jpg" alt="">
                     <a href="https://demo.bootstrapious.com/varkala/1-2-1/post.html">Best books about Fashion</a>
                     <div class="text_time">
@@ -138,7 +167,7 @@
                         <div class="time">January 16, 2019</div>
                     </div>
                 </div>
-                <div class="card_main">
+                <div class="card_main" data-aos="fade-up">
                     <img src="./Assets/Images/christopher-campbell-28571-unsplash.jpg" alt="">
                     <a href="https://demo.bootstrapious.com/varkala/1-2-1/post.html">Pellentesque habitant morbi</a>
                     <div class="text_time">
@@ -146,7 +175,7 @@
                         <div class="time">January 16, 2019</div>
                     </div>
                 </div>
-                <div class="card_main">
+                <div class="card_main" data-aos="fade-up">
                     <img src="./Assets/Images/ian-dooley-347962-unsplash.jpg" alt="">
                     <a href="https://demo.bootstrapious.com/varkala/1-2-1/post.html">Best books about Fashion</a>
                     <div class="text_time">
@@ -167,7 +196,7 @@
             </div>
             <div class="section-4">
                 <div class="offer">
-                    
+
                     <div class="text">
                         <div class="black">Free shipping & return</div>
                         <div>Free Shipping over $300</div>
@@ -236,5 +265,9 @@
     </div>
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
