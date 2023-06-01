@@ -98,7 +98,6 @@
     display: flex;
 }
 
-
 .section-2 .right{
     display: flex;
     gap: 110px;
@@ -138,6 +137,15 @@
     display: flex;
 }
 
+.section-2 .left .component:hover span,
+.section-2 .left .component:hover i {
+    color: black;
+}
+
+.section-2 .right .myIcons i:hover{
+    color:rgb(216, 196, 80) ;
+}
+
 .section-2 .main{
     margin-top: 115px;
     display: flex;
@@ -161,13 +169,6 @@
     font-weight: bolder;
 }
 
-.section-2 .left :hover {
-color: black;
-}
-
-.section-2 .right .myIcons i:hover{
-    color:rgb(216, 196, 80) ;
-}
 
 .section-3{
     margin-top: 80px;

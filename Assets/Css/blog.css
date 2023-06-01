@@ -94,6 +94,7 @@
 .page_icon,
 .docks_icon {
     display: flex;
+    align-items: center;
 }
 
 .section-2 .left .home_dropdown {
@@ -119,6 +120,28 @@
     z-index: 1;
     position: relative;
     display: none;
+}
+
+.section-2 .left .docks_dropdown {
+    margin-top: 30px;
+    width: 200px;
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+    display: none;
+}
+
+.section-2 .left .docks_dropdown div{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.section-2 .left .docks_dropdown .line{
+    width: 180px;
+    border-bottom: 1px solid rgb(181, 181, 181);
 }
 
 .section-2 .left .page_dropdown .cards {
@@ -331,7 +354,7 @@ div {
 
 .section-4 .offer {
     display: flex;
-    gap: 3px;
+    gap: 10px;
 }
 
 .section-4 .offer .text {
