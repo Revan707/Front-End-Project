@@ -481,12 +481,35 @@ div {
         width: 500px;
         flex-wrap: wrap;
     }
+    .section-4 {
+        width: 500px;
+        height: max-content;
+        flex-wrap: wrap;
+    }
+    .section-5 {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .section-5 .right {
+        flex-direction: column;
+        gap: 20px;
+    }
 
 }
 
 @media only screen and (max-width:600px) {
     .section-1 .right{
         display: none;
+    }
+    .section-2{
+        width:auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-3 .cards{
+        width: 300px;
+        flex-wrap: wrap;
+        align-items: center;
     }
 
 }
