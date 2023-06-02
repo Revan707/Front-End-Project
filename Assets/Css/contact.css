@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .section-1 {
@@ -40,6 +41,10 @@
     display: flex;
 }
 
+.phoneNumber {
+    font-family: "Roboto Mono", monospace !important;
+}
+
 .right {
     display: flex;
     margin-top: 20px;
@@ -63,25 +68,123 @@
     background-size: 100%;
 }
 
-.section-2 .header{
+.section-2 .header {
     display: flex;
     gap: 400px;
 }
 
 .section-2 .left {
-
     display: flex;
     gap: 25px;
 }
 
+.section-2 .left .black {
+    color: black;
+}
+
 .section-2 .left i {
     margin-top: 3px;
-    color: rgb(167, 164, 164);
 }
 
 .section-2 .left span {
     color: rgb(167, 164, 164);
     font-size: 17px;
+}
+
+.section-2 .home_icon,
+.shop_icon,
+.icons_icon,
+.page_icon,
+.docks_icon {
+    display: flex;
+    align-items: center;
+}
+
+.section-2 .left .home_dropdown {
+    margin-top: 30px;
+    width: 190px;
+    background-color: white;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+}
+
+.section-2 .left .page_dropdown {
+    margin-top: 50px;
+    width: 1350px;
+    right: 196px;
+    background-color: white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1;
+    position: relative;
+    display: none;
+}
+
+.section-2 .left .docks_dropdown {
+    margin-top: 30px;
+    width: 200px;
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+    display: none;
+}
+
+.section-2 .left .docks_dropdown div {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.section-2 .left .docks_dropdown .line {
+    width: 180px;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.section-2 .left .page_dropdown .cards {
+    margin: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.section-2 .left .page_dropdown .cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-2 .left .page_dropdown .cards .card a,
+div {
+    text-decoration: none;
+    color: #868e96;
+}
+
+.section-2 .left .page_dropdown .cards .card .title {
+    color: black;
+}
+
+.section-2 .left .page_dropdown img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.section-2 .left .home_dropdown a {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: rgb(154, 153, 153);
+    text-decoration: none;
+}
+
+.section-2 .left .home_dropdown a:hover {
+    color: black;
+    font-weight: bold;
 }
 
 .section-2 .left div {
@@ -90,15 +193,11 @@
     height: 25px;
 }
 
-.section-2 .left .home,
-.shop,
-.icons,
-.pages,
-.docks {
-    display: flex;
+.section-2 span {
+    float: left;
 }
 
-.section-2 .right{
+.section-2 .right {
     display: flex;
     gap: 110px;
 }
@@ -109,21 +208,20 @@
     border-color: white;
     border: none;
     outline: none;
-    border-bottom: 1px solid black;
-    background-color: white
+    background-color: rgb(247, 242, 242);
 }
 
-.section-2 .right  i{
+.section-2 .right i {
     font-size: 24px;
     cursor: pointer;
 }
 
-.section-2 .right .myIcon{
+.section-2 .right .myIcon {
     font-size: 20px;
     margin-top: 8px;
 }
 
-.section-2 .right .myIcons{
+.section-2 .right .myIcons {
     display: flex;
     gap: 15px;
 }
@@ -137,16 +235,22 @@
     display: flex;
 }
 
+.section-2 .right .search .line {
+    width: 300px;
+    border-bottom: 1px solid black;
+    height: 1px;
+}
+
 .section-2 .left .component:hover span,
 .section-2 .left .component:hover i {
     color: black;
 }
 
-.section-2 .right .myIcons i:hover{
-    color:rgb(216, 196, 80) ;
+.section-2 .right .myIcons i:hover {
+    color: rgb(216, 196, 80);
 }
 
-.section-2 .main{
+.section-2 .main {
     margin-top: 115px;
     display: flex;
     flex-direction: column;
@@ -154,23 +258,24 @@
     align-items: center;
 }
 
-.section-2 .main .title{
+.section-2 .main .title {
     color: #868e96;
     display: flex;
     gap: 7px;
 }
 
-.section-2 .main .title a{
-    color: rgb(202, 181, 62) ;
+.section-2 .main .title a {
+    color: rgb(202, 181, 62);
 }
 
-.section-2 .main .header_title{
+.section-2 .main .header_title {
     font-size: 70px;
+    color: black;
     font-weight: bolder;
 }
 
 
-.section-3{
+.section-3 {
     margin-top: 80px;
     width: 100%;
     height: 310px;
@@ -193,7 +298,7 @@
     font-weight: bold;
 }
 
-.section-3 .contact .left{
+.section-3 .contact .left {
     margin-left: 100px;
 }
 
@@ -203,21 +308,21 @@
     font-weight: bolder;
 }
 
-.section-3 .contact .for_contact .text{
+.section-3 .contact .for_contact .text {
     width: 380px;
 }
 
-.section-3 .contact .for_contact .call_text{
+.section-3 .contact .for_contact .call_text {
     width: 380px;
     line-height: 27px;
 }
 
-.section-3 .contact .for_contact .adress_text{
+.section-3 .contact .for_contact .adress_text {
     width: 200px;
     line-height: 24px;
 }
 
-.section-4{
+.section-4 {
     width: 100%;
     height: 750px;
     background-color: rgb(229, 227, 227);
@@ -252,6 +357,10 @@
 
 }
 
+.section-4 .myMap .right .black {
+    color: black;
+}
+
 .section-4 .myMap .right .country {
     display: flex;
     gap: 30px;
@@ -262,6 +371,7 @@
     margin-top: 10px;
     font-size: 25px;
     font-weight: bolder;
+    color: black;
 }
 
 .section-4 .myMap .right .country .text,
@@ -270,6 +380,7 @@
 .text3 {
     width: 150px;
     line-height: 20px;
+    color: black;
 }
 
 .section-4 .myMap .right .country .text1 {
@@ -284,7 +395,7 @@
     margin-left: 49px;
 }
 
-.section-5  {
+.section-5 {
     height: 600px;
     width: 95%;
     display: flex;
@@ -340,7 +451,7 @@
     cursor: pointer;
 }
 
-.section-5 .icons i:hover{
+.section-5 .icons i:hover {
     color: rgb(116, 107, 57);
 }
 
@@ -380,7 +491,8 @@
     text-align: center;
     background-color: white;
     color: rgb(167, 154, 81);
-    border: 1px solid rgb(167, 154, 81);;
+    border: 1px solid rgb(167, 154, 81);
+    ;
     font-size: 14px;
     font-weight: bold;
     transition: .3s;
@@ -435,7 +547,12 @@
 
 .section-6 .offer {
     display: flex;
-    gap: 3px;
+    gap: 10px;
+}
+
+.section-6 .offer i {
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 .section-6 .offer .text {
@@ -466,8 +583,12 @@
     width: 400px;
 }
 
-.section-7 .left .title {
+.section-7 .left i {
+    font-size: 25px;
+    margin-top: 3px;
+}
 
+.section-7 .left .title {
     letter-spacing: 2px;
     font-size: 20px;
     font-weight: bold;
@@ -480,8 +601,9 @@
 
 .section-7 .left input {
     height: 30px;
-    width: 200px;
+    width: 300px;
     border: none;
+    outline: none;
     border-bottom: 1px solid black;
 }
 
@@ -504,5 +626,13 @@
 .section-7 .right span {
     font-size: 16px;
     color: rgb(138, 138, 138);
+    cursor: pointer;
 }
 
+.section-7 .title {
+    color: black;
+}
+
+.section-7 .right span:hover {
+    color: black;
+}

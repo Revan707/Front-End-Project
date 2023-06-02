@@ -512,7 +512,12 @@ color: black;
 
 .section-8 .offer {
     display: flex;
-    gap: 3px;
+    gap: 10px;
+}
+
+.section-8 .offer i{
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 .section-8 .offer .text {

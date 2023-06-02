@@ -2,9 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 
 }
-
 
 .section-1 {
     width: 100%;
@@ -31,14 +32,22 @@
 
 .title {
     margin-top: 20px;
+    color: black;
 }
 
 .language {
     display: flex;
+    color: black;
 }
 
 .valuta {
     display: flex;
+    color: black;
+}
+
+.phoneNumber {
+    font-family: "Roboto Mono", monospace !important;
+    color: black;
 }
 
 .right {
@@ -67,7 +76,7 @@
 
 .section-2 .header {
     display: flex;
-    gap: 400px;
+    gap: 350px;
 }
 
 .section-2 .left {
@@ -75,7 +84,7 @@
     gap: 25px;
 }
 
-.section-2 .left .black{
+.section-2 .left .black {
     color: black;
 }
 
@@ -134,12 +143,12 @@
     display: none;
 }
 
-.section-2 .left .docks_dropdown div{
+.section-2 .left .docks_dropdown div {
     margin-top: 10px;
     margin-left: 20px;
 }
 
-.section-2 .left .docks_dropdown .line{
+.section-2 .left .docks_dropdown .line {
     width: 180px;
     border-bottom: 1px solid rgb(181, 181, 181);
 }
@@ -238,6 +247,15 @@ div {
     height: 1px;
 }
 
+.section-2 .left .component:hover span,
+.section-2 .left .component:hover i {
+    color: black;
+}
+
+.section-2 .right .myIcons i:hover {
+    color: rgb(216, 196, 80);
+}
+
 .section-2 .main {
     margin-top: 115px;
     display: flex;
@@ -264,14 +282,6 @@ div {
     color: black;
 }
 
-.section-2 .left .component:hover span,
-.section-2 .left .component:hover i {
-    color: black;
-}
-
-.section-2 .right .myIcons i:hover {
-    color: rgb(216, 196, 80);
-}
 
 .section-3 .cards {
     margin-top: 100px;
@@ -433,4 +443,16 @@ div {
 
 .section-5 .right span:hover {
     color: black;
+}
+
+@media only screen and(max-width:767px) {
+    .section1 .left {
+        gap: 28px;
+        display: none !important;
+    }
+
+    .section-1 .title {
+        right: 0 !important;
+    }
+
 }
