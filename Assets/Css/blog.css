@@ -445,14 +445,48 @@ div {
     color: black;
 }
 
-@media only screen and(max-width:767px) {
-    .section1 .left {
+@media only screen and (max-width:767px) {
+
+    .section-1 .left {
         gap: 28px;
         display: none !important;
     }
 
     .section-1 .title {
         right: 0 !important;
+    }
+
+    .section-2{
+        width:auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-2 .left{
+        display: none;
+    }
+    .section-2 .left .component{
+        display: none;
+    }
+    .section-2 .right .search{
+        display: none;
+    }
+    .section-2 .myIcons {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .section-2 .main {
+        align-items: center;
+    }
+    .section-3 .cards{
+        width: 500px;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    .section-1 .right{
+        display: none;
     }
 
 }

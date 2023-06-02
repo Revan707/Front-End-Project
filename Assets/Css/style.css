@@ -859,6 +859,10 @@ body .section7 .section7__left #email__adress .borderGray {
   color: black;
 }
 
+.navigarions div{
+  margin-left: 100px;
+}
+
  .end {
   margin-top: 95px !important;
   width: 100%;
@@ -1013,65 +1017,6 @@ body .section7 .section7__left #email__adress .borderGray {
     user-select: none;
     color: #868e96 !important;
     gap: 15px;
-  }
-
-   .main__navbar-smaller .burgermenu__mainnavbar .borderBlack {
-    border-color: black !important;
-    transition: all 500ms;
-  }
-
-   .main__navbar-smaller .burgermenu__mainnavbar .navigation {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-
-   .main__navbar-smaller .burgermenu__mainnavbar #searchArea {
-    transition-property: border;
-    transition: boder 500ms;
-    border-bottom: 1px solid rgba(134, 142, 150, 0.5137254902);
-    padding-bottom: 5px !important;
-    outline: none;
-    display: flex;
-  }
-
-   .main__navbar-smaller .burgermenu__mainnavbar #searchArea i {
-    font-size: 17px;
-    color: rgba(0, 0, 0, 0.719) !important;
-    padding: 5px 20px !important;
-    cursor: pointer;
-  }
-
-   .main__navbar-smaller .burgermenu__mainnavbar #searchArea input {
-    border: none;
-    outline: none;
-    width: 100%;
-    background-color: transparent;
-  }
-
-   .main__navbar-smaller .burgermenu__mainnavbar #searchArea input::-moz-placeholder {
-    font-size: 15px;
-    font-weight: 600;
-    color: rgba(134, 142, 150, 0.6823529412);
-    padding: 10px 15px;
-  }
-
-   .main__navbar-smaller .burgermenu__mainnavbar #searchArea input::placeholder {
-    font-size: 15px;
-    font-weight: 600;
-    color: rgba(134, 142, 150, 0.6823529412);
-    padding: 10px 15px;
-  }
-
-   .main__navbar-smaller .burgermenu__mainnavbar #homeBtn2,
-   .main__navbar-smaller .burgermenu__mainnavbar #homeArrow2 {
-    color: black;
-  }
-
-   .main__navbar-smaller .burgermenu__mainnavbar div:hover p,
-   .main__navbar-smaller .burgermenu__mainnavbar div:hover i {
-    color: black;
-    cursor: pointer;
   }
 
    .main__dropdownsSmaller {
